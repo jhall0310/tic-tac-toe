@@ -38,6 +38,21 @@ $(document).ready(function() {
    if (($('#cell6').text() === $('#cell7').text()) && ($('#cell7').text()=== $('#cell8').text()) && ($('#cell6').text() === $('#cell8').text())){
      alert("VICTORY");
    }
+   if (($('#cell0').text() === $('#cell3').text()) && ($('#cell3').text()=== $('#cell6').text()) && ($('#cell0').text() === $('#cell6').text())){
+     alert("VICTORY");
+   }
+   if (($('#cell1').text() === $('#cell4').text()) && ($('#cell4').text()=== $('#cell7').text()) && ($('#cell1').text() === $('#cell7').text())){
+     alert("VICTORY");
+   }
+   if (($('#cell2').text() === $('#cell5').text()) && ($('#cell5').text()=== $('#cell8').text()) && ($('#cell2').text() === $('#cell8').text())){
+     alert("VICTORY");
+   }
+   if (($('#cell0').text() === $('#cell4').text()) && ($('#cell4').text()=== $('#cell8').text()) && ($('#cell0').text() === $('#cell8').text())){
+     alert("VICTORY");
+   }
+   if (($('#cell2').text() === $('#cell4').text()) && ($('#cell4').text()=== $('#cell6').text()) && ($('#cell2').text() === $('#cell6').text())){
+     alert("VICTORY");
+   }
   }
 
 
