@@ -3,7 +3,29 @@
 }
 
 .box {
-  border: 1px solid black;
+  border: 1px solid white;
   height: 150px;
   font-size: 25pt;
+  border-radius: 7pt;
+}
+
+button {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 30pt;
+  border-radius: 7pt;
+  background-color: #00FF1E;
+  color: black;
+}
+
+body {
+  background-color: #3E4039;
+}
+
+.row {
+  color: white;
+}
+
+.button {
+  text-align: center;
 }

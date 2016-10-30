@@ -54,7 +54,9 @@ $(document).ready(function() {
      alert("VICTORY");
    }
   }
-
+  $('.button').click(function() {
+      location.reload();
+  });
 
   console.log('ready');
 
